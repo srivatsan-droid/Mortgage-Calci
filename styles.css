@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #e7f2f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .calculator {
+    display: flex;
+    width: 100%;
+  }
+  
+  .input-section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .input-section h3 {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  #clear {
+    text-align: right;
+    color: #aaa;
+    cursor: pointer;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .term-interest {
+    display: flex;
+    gap: 15px;
+  }
+  
+  #type fieldset {
+    border: none;
+    margin-top: 10px;
+  }
+  
+  #type label {
+    display: block;
+    margin-top: 5px;
+  }
+  
+  #payments button {
+    background-color: #d4ed1e;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #333;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .results {
+    flex: 1;
+    background-color: #0b2b3e;
+    color: white;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .results h4 {
+    font-size: 1.2rem;
+  }
+  
+  .results p {
+    margin-top: 10px;
+  }
+  
+  #resultPayment {
+    font-size: 2rem;
+    color: #d4ed1e;
+  }
+  
